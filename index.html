@@ -17,18 +17,15 @@
   </nav> -->
   <div id="app"></div>
   <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
     mermaid.initialize({ startOnLoad: false });
     window.$docsify = {
       name: '',  // 文档标题，会显示在侧边栏顶部。
       nameLink: '', // 文档标题的链接
-      repo: 'http://www.baidu.com', // 在右侧启用一个挂件，可以直接跳转到对应的链接
-      loadSidebar: true, // 启用侧边栏
+      repo: './sss', // 在右侧启用一个挂件，可以直接跳转到对应的链接
+      loadSidebar: 'sidebar.md', // 启用侧边栏
       // maxLevel: 6,  // 渲染目录的层数，默认最大层
-      subMaxLevel: 3, // 子目录层数  自定义侧边栏后不会自动生成目录(和maxLevel对应)因此需要制定
-      loadNavbar: true, // 导航栏
+      subMaxLevel: 10, // 子目录层数  自定义侧边栏后不会自动生成目录(和maxLevel对应)因此需要制定
+      loadNavbar: 'navbar.md', // 导航栏
       coverpage: false, // 封面
       el: '#app', // 默认挂载元素
       auto2top: true, // 切换页面后是否自动跳转到页面顶部。 默认false
@@ -50,5 +47,10 @@
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-nginx.min.js"></script>
 </body>
 </html>
