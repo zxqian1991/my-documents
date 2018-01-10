@@ -4,10 +4,12 @@
   - [React](tech_documents/front/React/React.md)
   - [Vue](tech_documents/front/Vue/Vue.md)
 - 项目
+  - 记账软件
+    - [项目功能](program/note-bills/function.md)
 - API
   - [Union-Ui](api/union-ui/README.md)
-  <!-- - [数据经纬](https://zxqian1991.github.io/Data-latitude-and-longitude/) -->
-  <!-- - [开放平台](https://zuogangju369.github.io/pages) -->
+    <!-- - [数据经纬](https://zxqian1991.github.io/Data-latitude-and-longitude/) -->
+    <!-- - [开放平台](https://zuogangju369.github.io/pages) -->
 - 装修
   - [北欧风格](zhuangxiu/Nordic_style.md)
 - Sketch
